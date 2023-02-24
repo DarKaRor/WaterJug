@@ -49,8 +49,10 @@ namespace WaterJug
             CreateCups();
 
             if (CheckBeforeStart() is not true)
+            {
                 EndProgram();
                 return;
+            }
 
 
             // While there exists an state that hasn't been tested.
